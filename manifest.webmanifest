@@ -1,0 +1,23 @@
+{
+  "name": "法语记忆",
+  "short_name": "法语记忆",
+  "description": "本地优先的法语单词与词组记忆工具",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f5f9ff",
+  "theme_color": "#0b63ce",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
