@@ -7,3 +7,46 @@
   color: #fff;
   border-color: #ffffff55;
 }
+
+.notes {
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+
+.notes p {
+  margin: 7px 0;
+  color: #55708c;
+  font-size: 18px;
+  line-height: 1.45;
+}
+
+.library-notes {
+  margin: 7px 0 10px;
+  padding-left: 10px;
+  border-left: 3px solid var(--line);
+}
+
+.library-notes p {
+  margin: 4px 0;
+  color: #718198;
+  font-size: 13px;
+}
+
+.logo svg {
+  width: 31px;
+  height: 31px;
+  fill: none;
+  stroke: #fff;
+  stroke-width: 3.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.brand > h1 {
+  margin: 0;
+}
+
+.hero .day {
+  margin-top: 0;
+}
