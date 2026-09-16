@@ -50,3 +50,78 @@
 .hero .day {
   margin-top: 0;
 }
+
+.logo {
+  width: 46px;
+  height: 46px;
+  overflow: hidden;
+  box-shadow: 0 5px 14px #062b6533;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.goal-picker {
+  margin: 18px 0;
+  text-align: left;
+}
+
+.goal-picker label {
+  display: block;
+  font-weight: 750;
+  margin-bottom: 9px;
+}
+
+.goal-row {
+  display: grid;
+  grid-template-columns: 52px 1fr 52px;
+  gap: 9px;
+}
+
+.goal-row button,
+.goal-row input {
+  height: 52px;
+  border-radius: 14px;
+  border: 1px solid #ffffff77;
+}
+
+.goal-row button {
+  background: #ffffff22;
+  color: #fff;
+  font-size: 24px;
+}
+
+.goal-row input {
+  min-width: 0;
+  text-align: center;
+  background: #fff;
+  color: var(--deep);
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.goal-presets {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 6px;
+  margin-top: 9px;
+}
+
+.goal-presets button {
+  min-height: 38px;
+  padding: 0;
+  background: #ffffff1c;
+  border-color: #ffffff55;
+  color: #fff;
+}
+
+.goal-picker small {
+  display: block;
+  margin-top: 10px;
+  opacity: .78;
+  line-height: 1.45;
+}
